@@ -1,0 +1,33 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
+
+@import url('./colddark.theme.prism.css');
+
+@layer base {
+    body {
+        @apply font-sans p-5 text-gray-600;
+    }
+    p {
+        @apply text-lg;
+    }
+    a {
+        @apply text-purple-500 font-semibold no-underline;
+    }
+    hr {
+        @apply my-4;
+    }
+}
+
+.anchor {
+    line-height: inherit;
+    @apply opacity-0 pl-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100;
+}
+.anchor-link {
+    @apply font-sans text-indigo-200;
+}

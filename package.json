@@ -1,0 +1,49 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "next build",
+        "debug": "cross-env NODE_OPTIONS='--inspect' next dev",
+        "dev": "next dev",
+        "export": "next export",
+        "lint": "next lint --fix",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@headlessui/react": "^1.4.0",
+        "@heroicons/react": "^1.0.4",
+        "@tailwindcss/typography": "^0.4.1",
+        "autoprefixer": "^10.2.6",
+        "esbuild": "^0.12.23",
+        "hast-util-heading": "^2.0.0",
+        "hast-util-to-string": "^2.0.0",
+        "hastscript": "^7.0.2",
+        "lodash": "^4.17.21",
+        "mdx-bundler": "^6.0.1",
+        "next": "latest",
+        "postcss": "^8.3.5",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-popper": "^2.2.5",
+        "reading-time": "^1.4.0",
+        "rehype-autolink-headings": "^6.1.0",
+        "rehype-shiki": "^0.0.9",
+        "rehype-slug": "^5.0.0",
+        "remark-images": "^3.0.0",
+        "remark-mdx-images": "^1.0.3",
+        "shiki": "^0.9.10",
+        "tailwindcss": "^2.2.4",
+        "unist-util-visit": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^16.7.1",
+        "@types/react": "^17.0.18",
+        "cross-env": "^7.0.3",
+        "eslint": "^7.32.0",
+        "eslint-config-next": "11.1.2",
+        "eslint-config-prettier": "^8.3.0",
+        "prettier": "^2.3.2",
+        "shiki-languages": "^0.2.7",
+        "typescript": "latest",
+        "unist-builder": "^3.0.0"
+    }
+}
